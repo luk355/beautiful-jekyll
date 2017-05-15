@@ -1,16 +1,27 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Or, why you'd want to go on a date with me
 ---
+ 
+[//]: <> (Work)
+<i class="fa fa-briefcase" aria-hidden="true"></i>
 
-My name is Inigo Montoya. I have the following qualities:
+Software Developer at [TradeMe](http://www.trademe.co.nz/About-trade-me/) living a dream in Wellington, New Zealand. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+[//]: <> (Study)
+<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 
-What else do you need?
+Obtained both Master's degree in **Intelligent Systems** and Bachelor of **Information Technology** at [Brno University of Technology](http://www.fit.vutbr.cz/). My Diploma Thesis was focussed to [An Autonomous Driver of a TORCS Racing Car](http://www.fit.vutbr.cz/study/DP/DP.php?id=11855&file=t) and the application of Genetic algorithms to a [Racing line](https://en.wikipedia.org/wiki/Racing_line) optimization.
 
-### my history
+[//]: <> (Code)
+<i class="fa fa-code" aria-hidden="true"></i>
+Originally .Net Developer with current focus to:
+- .Net / .Net Core
+- SPA frameworks i.e. Angular/Aurelia
+- TypeScript
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+[//]: <> (Interests)
+<i class="fa fa-heart" aria-hidden="true"></i>
+
+Mountain biker, traveller, occasional photographer, coffee enthisiast, beer homebrewer & wine lover.

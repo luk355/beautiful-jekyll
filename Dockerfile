@@ -2,6 +2,7 @@ FROM mangar/jekyll:1.0
 
 MAINTAINER Marcio Mangar "marcio.mangar@gmail.com"
 
+# Install gem packages
 RUN gem install jekyll -v 3.1.6
 RUN gem install bundler
 
@@ -33,12 +34,17 @@ RUN gem install jemoji -v 0.6.2
 RUN gem install github-pages -v 82
 
 
-
+# Create app directory in the container
 RUN mkdir -p /app
+
+# Copy the current directory contents into the container at /app
 ADD ./ /app
 
+# Set the working directory to /app
 WORKDIR /app
 
+# Make port 4000 available to the world outside this container
 EXPOSE 4000
 
+# Run
 CMD bundle exec jekyll serve
