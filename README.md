@@ -199,6 +199,11 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
 | [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
 
+## Advanced: Local development
+
+1. Install bundler - `gem install bundler`
+1. Install all dependencies from Gemfile - `bundle install`
+1. Serve website - `bundle exec jekyll serve`
 
 ## Advanced: Local development using Docker
 
