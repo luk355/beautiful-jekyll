@@ -100,6 +100,9 @@ url-pretty: "lukasbehal.com"  # eg. "deanattali.com/beautiful-jekyll"
 # Facebook App ID
 # fb_app_id: ""
 
+# hide drafts from live web
+show_drafts: false
+
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50

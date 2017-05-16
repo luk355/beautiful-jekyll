@@ -201,10 +201,13 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 
 ## Advanced: Local development
 
+### Installation
 1. Install [ruby & ruby devkit](http://rubyinstaller.org/downloads/)
 1. Install bundler - `gem install bundler`
 1. Install all dependencies from Gemfile - `bundle install`
-1. Serve website - `bundle exec jekyll serve`
+
+### Starting local website
+1. Serve website - `bundle exec jekyll serve --drafts`
 
 ## Advanced: Local development using Docker
 
