@@ -10,7 +10,7 @@ As a developer coming from a `C# world` I was dealing today with a rather strang
 
 I had to implement couple of services, and while doing so, I managed to define one of my enums in a Declaration file (previously called as _Definition files_ or _Typings files_). I didn't care about where it sits at that time as I would move all the pieces to correct locations afterwards. The file content were looking similar to the ones below:
 
-```TypeScript
+```typescript
 // file: foo.service.d.ts
 
 export enum FooEnum {
@@ -22,7 +22,7 @@ export interface IFooService {
 }
 ```
 
-```TypeScript
+```typescript
 // file: foo.service.ts
 
 import {FooEnum, IFooService} from './foo.service.d'
@@ -35,7 +35,7 @@ export class FooService implements IFooService {
 
 Suprisingly enough, the app didn't work and I was getting an `Cannot read property 'EnumValue' of undefined` error (or `Error: Cannot find module './foo.service.d'` when running app in NodeJs).
 
-```TypeScript
+```typescript
 // file: app.ts
 
 import {FooEnum} from './foo.service.d'

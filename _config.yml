@@ -104,7 +104,6 @@ google_analytics: "UA-99566505-1"
 show_drafts: false
 
 # enable syntax highlighting
-markdown: kramdown
 highlighter: rouge
 
 # Excerpt Word Length
