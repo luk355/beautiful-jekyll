@@ -5,7 +5,7 @@
     "showOutput": "never",
     "tasks": [
         {
-            "taskName": "run",
+            "taskName": "serve",
             "echoCommand": true,
             "isBuildCommand": true,
             "isShellCommand": true,
