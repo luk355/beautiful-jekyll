@@ -6,7 +6,7 @@ tags: [TypeScript, Declaration Files, Definition Files, Typings]
 
 **TLDR:** Do not define your enums in your TypeScript Declaration (`*.d.ts`) files, ever.
 
-As a developer coming from a `C#` world I was dealing today with a rather strange error when implementing new functionality for one of our products.
+As a developer coming from a `C# world` I was dealing today with a rather strange error when implementing new functionality for one of our products.
 
 I had to implement couple of services, and while doing so, I managed to define one of my enums in a Declaration file (previously called as _Definition files_ or _Typings files_). I didn't care about where it sits at that time as I would move all the pieces to correct locations afterwards. The file content were looking similar to the ones below:
 
