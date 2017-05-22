@@ -54,7 +54,7 @@ The example application [can be found on my GitHub](https://github.com/luk355/bl
 Just a quick summary what TypeScript Declaration files are:
 
 * Provides type definitions for any JavaScript (JS) file - enhancing JS development with AutoCompletion, type checking etc.
-* Are not compiled into JS files when running TypeScript compiler as they should not contain any functionality
+* Are not transpiled into JS files when running TypeScript compiler as therefore cannot contain any functionality
 * Can be written additionally to any of the JS code
 * Exists for most of the JS frameworks available
 * Are currently available through npm under `@Types` organisation and can be installed by running `npm install @Types/<package-name> --save-dev`
