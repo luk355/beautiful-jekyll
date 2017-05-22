@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "showOutput": "never",
+    "tasks": [
+        {
+            "taskName": "run",
+            "echoCommand": true,
+            "isBuildCommand": true,
+            "isShellCommand": true,
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve",
+                "--incremental",
+                "--drafts"
+            ]
+        }
+    ]
+}
