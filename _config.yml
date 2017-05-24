@@ -23,7 +23,7 @@ description: A software blog of yet another .Net Developer.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about-me"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -67,7 +67,7 @@ footer-links-active:
   google-plus: false
   github: true
   reddit: false
-  linkedin: false
+  linkedin: true
   xing: false
   stackoverflow: false
   snapchat: false
@@ -102,9 +102,6 @@ google_analytics: "UA-99566505-1"
 
 # hide drafts from live web
 show_drafts: false
-
-# enable syntax highlighting
-highlighter: rouge
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page

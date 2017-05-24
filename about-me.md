@@ -1,7 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Or, why you'd want to go on a date with me
+subtitle: On the subject of me
+#subtitle: Or, why you'd want to go on a date with me
+bigimg: /img/about-me.jpg
 ---
  
 [//]: <> (Work)
