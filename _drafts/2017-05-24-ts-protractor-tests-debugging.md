@@ -10,6 +10,7 @@ VS Code configuration
 
 ```json
 {
+    // file: tasks.json
     "version": "0.2.1",
     "configurations": [
         {
