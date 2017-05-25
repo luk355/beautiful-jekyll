@@ -116,12 +116,14 @@ title-separator: "-"
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
 markdown: kramdown
-highlighter: rouge
+highlighter: none
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    disable: true
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -153,6 +155,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - .unused
 
 # prose.io config
 prose:
