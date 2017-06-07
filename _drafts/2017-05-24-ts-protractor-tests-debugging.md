@@ -8,6 +8,8 @@ http://www.bilyachat.com/2017/01/debug-protractor-typescript-tests-with.html
 
 VS Code configuration
 
+![alt text](/img/protractor_error.jpg "Logo Title Text 1")
+
 ```json
 {
     // file: tasks.json

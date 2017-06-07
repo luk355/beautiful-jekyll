@@ -9,7 +9,7 @@ bigimg: /img/about-me.jpg
 [//]: <> (Work)
 <i class="fa fa-briefcase fa-lg" aria-hidden="true"></i>
 
-Software Developer at [TradeMe](http://www.trademe.co.nz/About-trade-me/) living a dream in Wellington, New Zealand. 
+Software Developer at [TradeMe](http://www.trademe.co.nz/About-trade-me/) living the dream in Wellington, New Zealand.
 
 [//]: <> (Study)
 <i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
