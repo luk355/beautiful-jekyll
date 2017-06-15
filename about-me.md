@@ -27,4 +27,4 @@ Originally .Net Developer with current focus to:
 [//]: <> (Interests)
 <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
 
-Mountain biker, traveller, occasional photographer, coffee enthisiast, beer homebrewer & wine lover.
+Mountain biker, traveller, occasional photographer, coffee enthusiast, beer homebrewer & wine lover.
