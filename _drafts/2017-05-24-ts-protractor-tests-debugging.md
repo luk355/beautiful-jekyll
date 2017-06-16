@@ -4,7 +4,7 @@ title: Debugging Protractor TypeScript tests with VS Code
 tags: [TypeScript, Protractor, VS Code, Debugging]
 ---
 
-Currently, there are still not too many resources available online highlighting the proper configuration of Protractor end-to-end tests written in TypeScript, especially when it comes to the debugging of the written tests. There is one really uselful guide written by [Volodymyr][volodymyr-debug-ts] which you should go through in the first place.
+Currently, there are still not too many resources available online highlighting the proper configuration of Protractor end-to-end tests written in TypeScript, especially when it comes to the debugging of the written tests. There is, however, one really useful guide written by [Volodymyr][volodymyr-debug-ts] which you should go through in the first place.
 
 There is no way to debug TypeScript tests directly since all the generated JavaScript and source maps files by Protractor are [kept in memory](https://github.com/TypeStrong/ts-node/issues/46). For that reason, there are two steps involved to get the debugging working:
 
@@ -19,9 +19,11 @@ Following configuration needs to be added to get the debugging working:
 * Protractor debug configuration (usually `protractor.config.debug.js`)
 * TS transpiler settings - to output transpiled files to proper location
 
+Do not consider this as a full guide, I am just trying to highlight whatever I find important.
+
 ### VS Code configuration
 
-There are couple of important options I would like to expand on:
+There are a couple of important options I would like to expand on:
 
 * `"preLaunchTask": "builde2e"` - this a gulp task in my case to transpile TS files to JS files prior the debugging is executed. The output path for generated files needs to be the same as the one specified in `outFiles` option.
 * `"sourceMaps"=true` and `"outFiles": [ "${workspaceRoot}/dist/e2e/**/*.js" ]` - really essential to get the debugging working.
