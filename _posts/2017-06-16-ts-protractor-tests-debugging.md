@@ -5,7 +5,9 @@ subtitle: A quick setup guide
 tags: [TypeScript, Protractor, VS Code, Debugging]
 ---
 
-Currently, there are still not too many resources available online highlighting the proper configuration of Protractor end-to-end tests written in TypeScript, especially when it comes to the debugging of the written tests. There is, however, one really useful guide written by [Volodymyr][volodymyr-debug-ts] which you should go through in the first place.
+At the moment, there are still not too many resources available online, highlighting the proper configuration of Protractor end-to-end tests written in TypeScript, especially when it comes to the debugging of the written tests.
+
+One useful guide I would recommend you to go through in the first place was written by [Volodymyr][volodymyr-debug-ts].
 
 There is no way to debug TypeScript tests directly since all the generated JavaScript and source maps files by Protractor are [kept in memory](https://github.com/TypeStrong/ts-node/issues/46). For that reason, there are two steps involved to get the debugging working:
 
