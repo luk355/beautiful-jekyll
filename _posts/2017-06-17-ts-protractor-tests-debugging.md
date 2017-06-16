@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Debugging Protractor TypeScript tests with VS Code
+subtitle: A quick setup guide
 tags: [TypeScript, Protractor, VS Code, Debugging]
 ---
 
