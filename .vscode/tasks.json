@@ -24,7 +24,8 @@
                 "exec",
                 "jekyll",
                 "serve",
-                "--drafts"
+                "--drafts",
+                "--future"
             ]
         }
     ]
