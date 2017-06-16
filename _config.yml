@@ -105,6 +105,9 @@ google_analytics: "UA-99566505-1"
 # hide drafts from live web
 show_drafts: false
 
+# hide future posts
+future: false
+
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
