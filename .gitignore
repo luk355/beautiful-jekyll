@@ -1,11 +1,13 @@
 # project
-_site
-.sass-cache
-.vagrant
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
 
-.jekyll-metadata
+# npm
+node_modules/
