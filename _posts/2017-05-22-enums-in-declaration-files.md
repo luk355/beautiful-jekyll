@@ -49,6 +49,28 @@ The error dissapeared when I moved the enum definition into proper TypeScript fi
 
 The example application [can be found on my GitHub](https://github.com/luk355/blog-example-enums-in-ts-declaration-files).
 
+### Update
+
+There has been a discussion on [stackoverflow][stackoverflow-amd] recently about the same matter for [AMD][amd] specification. 
+
+The best suggestion is to export enum as a variable being a number/string from the TypeScript Declaration file. This ensures TypeScript validation when assigning the enum property value outside of the enum. The code below is taken from the [stackoverflow thread][stackoverflow-amd].
+
+```typescript
+///messagelevel.d.ts
+export type MessageLevel = "Unknown" | "Fatal" | "Critical" | "Error";
+
+///main.d.ts
+import * as ml from "./MessageLevel";
+
+interface IMyMessage {
+    name: string;
+    level: ml.MessageLevel;
+    message: string;
+}
+```
+
+Other potential solution could be to implement only enum interface in Typings Declaration file and then implement the actual enum in Typescript file (also discribed on [stackoverflow thread][stackoverflow-amd]).
+
 ## What are TypeScript Declaration files
 
 Just a quick summary what TypeScript Declaration files are:
@@ -64,3 +86,9 @@ Just a quick summary what TypeScript Declaration files are:
 * [Working example on GitHub](https://github.com/luk355/blog-example-enums-in-ts-declaration-files)
 * [Enums on Typescriptlang.org](https://www.typescriptlang.org/docs/handbook/enums.html)
 * [Official TypeScript Declaration Files introduction](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)
+* [How to refer to Typescript enum in d.ts file when using AMD on Stackoverflow][stackoverflow-amd]
+
+
+
+[amd]: https://en.wikipedia.org/wiki/Asynchronous_module_definition
+[stackoverflow-amd]: https://stackoverflow.com/questions/38335668/how-to-refer-to-typescript-enum-in-d-ts-file-when-using-amd/48159049#48159049  "How to refer to Typescript enum in d.ts file when using AMD on Stackoverflow"
