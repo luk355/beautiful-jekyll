@@ -51,7 +51,7 @@ The example application [can be found on my GitHub](https://github.com/luk355/bl
 
 ### Update
 
-There has been a discussion on [stackoverflow][stackoverflow-amd] recently about the same matter for [AMD][amd] specification. 
+There has been a discussion on [stackoverflow][stackoverflow-amd] recently about the same matter for [AMD][amd] specification.
 
 The best suggestion is to export enum as a variable being a number/string from the TypeScript Declaration file. This ensures TypeScript validation when assigning the enum property value outside of the enum. The code below is taken from the [stackoverflow thread][stackoverflow-amd].
 
